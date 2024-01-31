@@ -1,4 +1,4 @@
-function linearSearch(searchTerm, arr) {
+function linearSearch(searchTerm, arr) {changes
   return undefined;
 }
 
