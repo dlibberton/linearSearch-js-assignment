@@ -8,6 +8,7 @@ function linearSearch(searchTerm, arr) {
 }
 
 function globalLinearSearch(searchTerm, arr) {
+  
   return [];
 }
 
