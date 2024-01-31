@@ -8,8 +8,13 @@ function linearSearch(searchTerm, arr) {
 }
 
 function globalLinearSearch(searchTerm, arr) {
-  
-  return [];
+  let results = []
+  for (let i = 0; i< arr.length; i++){
+    if (arr[i] === searchTerm){
+      results.push(i)
+    }
+  }
+  return results;
 }
 
 module.exports = { linearSearch, globalLinearSearch };
